@@ -23,7 +23,7 @@ function generate_dna_concentration_unit($short_name, $full_name, $symbol) {
 
 function dna_concentration_units_define_units() {
   return array(
-    'dna_concentration_mkg_ml' => generate_dna_concentration_unit('mkg/ml', 'Mikrogramm per Milliliter', 'mkg/ml'),
-    'dna_concentration_mg_ml' => generate_dna_concentration_unit('mg/ml', 'Milligramm per Milliliter', 'mg/ml'),
+    'dna_concentration_mkg_ml' => generate_dna_concentration_unit(t('mkg/ml'), t('Mikrogramm per Milliliter'), t('mkg/ml')),
+    'dna_concentration_mg_ml' => generate_dna_concentration_unit(t('mg/ml'), t('Milligramm per Milliliter'), t('mg/ml')),
   );
 }

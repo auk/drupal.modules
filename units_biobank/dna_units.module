@@ -23,8 +23,8 @@ function generate_dna_unit($short_name, $full_name, $symbol) {
 
 function dna_units_define_units() {
   return array(
-    'dna_pg' => generate_dna_unit('pg', 'Pikogramm', 'pg'),
-    'dna_d' => generate_dna_unit('d', 'Da - 1.67*10^-24 g', 'd'),
-    'dna_np' => generate_dna_unit('np', 'Nucleotide pair - 1*10^3 D', 'np'),
+    'dna_pg' => generate_dna_unit(t('pg'), t('Pikogramm'), t('pg')),
+    'dna_d' => generate_dna_unit(t('d'), t('Da (1.67*10^-24 g)'), t('d')),
+    'dna_np' => generate_dna_unit(t('np'), t('Nucleotide pair (10^3 D)'), t('np')),
   );
 }

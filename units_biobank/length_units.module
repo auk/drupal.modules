@@ -23,10 +23,10 @@ function generate_length_unit($short_name, $full_name, $symbol) {
 
 function length_units_define_units() {
   return array(
-    'length_mm' => generate_length_unit('mm', 'Millimeter', 'mm'),
-    'length_cm' => generate_length_unit('cm', 'Centimeter', 'cm'),
-    'length_dm' => generate_length_unit('dm', 'Decimeter', 'dm'),
-    'length_m' => generate_length_unit('m', 'Meter', 'm'),
-    'length_km' => generate_length_unit('km', 'Kilometer', 'km'),
+    'length_mm' => generate_length_unit(t('mm'), t('Millimeter'), t('mm')),
+    'length_cm' => generate_length_unit(t('cm'), t('Centimeter'), t('cm')),
+    'length_dm' => generate_length_unit(t('dm'), t('Decimeter'), t('dm')),
+    'length_m' => generate_length_unit(t('m'), t('Meter'), t('m')),
+    'length_km' => generate_length_unit(t('km'), t('Kilometer'), t('km')),
   );
 }

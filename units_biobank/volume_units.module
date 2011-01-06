@@ -23,10 +23,10 @@ function generate_volume_unit($short_name, $full_name, $symbol) {
 
 function volume_units_define_units() {
   return array(
-    'volume_ml' => generate_volume_unit('ml', 'Milliliter', 'ml'),
-    'volume_l' => generate_volume_unit('liter', 'Liter', 'l'),
-    'volume_cm3' => generate_volume_unit('cm3', 'Cubic centimeter', 'ccm'),
-    'volume_dm3' => generate_volume_unit('dm3', 'Cubic decimeter', 'cdm'),
-    'volume_m3' => generate_volume_unit('m3', 'Cubic meter', 'm3'),
+    'volume_ml' => generate_volume_unit(t('ml'), t('Milliliter'), t('ml')),
+    'volume_l' => generate_volume_unit(t('liter'), t('Liter'), t('l')),
+    'volume_cm3' => generate_volume_unit(t('kub.cm'), t('Cubic centimeter'), t('cc')),
+    'volume_dm3' => generate_volume_unit(t('kub.dm.'), 'Cubic decimeter', t('cdm')),
+    'volume_m3' => generate_volume_unit(t('kub.m.'), t('Cubic meter'), t('cbm')),
   );
 }
