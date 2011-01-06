@@ -3,35 +3,34 @@
 # Russian translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  dna_concentration_units.module: n/a
+#  dna_units.module: n/a
 #  currency_units.info,v 1.1 2009/07/27 23:44:38 crea
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2011-01-06 15:27+0600\n"
-"PO-Revision-Date: 2011-01-06 15:27+0600\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-01-06 15:31+0600\n"
+"Last-Translator: Alexey Ukhov <alex@ukhov.ru>\n"
 "Language-Team: Russian <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
 
-#: dna_concentration_units.module:16
-msgid "DNA concentration units"
-msgstr ""
+#: dna_units.module:16
+msgid "DNA units"
+msgstr "Единицы измерения ДНК"
 
-#: dna_concentration_units.info:0
-msgid "DNA Concentration Units"
-msgstr ""
+#: dna_units.info:0
+msgid "DNA Units"
+msgstr "Единицы измерения ДНК"
 
-#: dna_concentration_units.info:0
-msgid "Implementation of Units API for DNA concentration measurement units."
-msgstr ""
+#: dna_units.info:0
+msgid "Implementation of Units API for DNA measurement units."
+msgstr "Реализация Units API для измерения ДНК"
 
-#: dna_concentration_units.info:0
+#: dna_units.info:0
 msgid "Units"
 msgstr ""
 
