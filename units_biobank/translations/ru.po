@@ -1,0 +1,201 @@
+# $Id$
+#
+# Russian translation of Drupal (general)
+# Copyright 2010 Alexey A. Ukhov <alex@ukhov.ru>
+# Generated from files:
+#  dna_concentration_units.module: n/a
+#  dna_concentration_units.info: n/a
+#  dna_units.module: n/a
+#  dna_units.info: n/a
+#  length_units.module: n/a
+#  length_units.info: n/a
+#  volume_units.module: n/a
+#  volume_units.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-01-07 00:59+0600\n"
+"PO-Revision-Date: 2011-01-07 01:06+0600\n"
+"Last-Translator: Alexey Ukhov <alex@ukhov.ru>\n"
+"Language-Team: Russian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: dna_concentration_units.module:16
+#: dna_concentration_units.info:0
+msgid "DNA concentration units"
+msgstr "Единицы концентрации ДНК"
+
+#: dna_concentration_units.module:26;26
+msgid "mkg/ml"
+msgstr "мкг/мл"
+
+#: dna_concentration_units.module:26
+msgid "Mikrogramm per Milliliter"
+msgstr "микрограмм/миллилитр"
+
+#: dna_concentration_units.module:27;27
+msgid "mg/ml"
+msgstr "мг/мл"
+
+#: dna_concentration_units.module:27
+msgid "Milligramm per Milliliter"
+msgstr "миллиграмм/миллилитр"
+
+#: dna_units.module:16
+#: dna_units.info:0
+msgid "DNA units"
+msgstr "Единицы измерения ДНК"
+
+#: dna_units.module:26;26
+msgid "pg"
+msgstr "пг"
+
+#: dna_units.module:26
+msgid "Pikogramm"
+msgstr "пикограмм"
+
+#: dna_units.module:27;27
+msgid "d"
+msgstr ""
+
+#: dna_units.module:27
+msgid "Da (1.67*10^-24 g)"
+msgstr ""
+
+#: dna_units.module:28;28
+msgid "np"
+msgstr ""
+
+#: dna_units.module:28
+msgid "Nucleotide pair (10^3 D)"
+msgstr ""
+
+#: length_units.module:16
+#: length_units.info:0
+msgid "Length units"
+msgstr "Единицы измерения длины"
+
+#: length_units.module:26;26
+msgid "mm"
+msgstr ""
+
+#: length_units.module:26
+msgid "Millimeter"
+msgstr "миллиметр"
+
+#: length_units.module:27;27
+msgid "cm"
+msgstr ""
+
+#: length_units.module:27
+msgid "Centimeter"
+msgstr "сантиметр"
+
+#: length_units.module:28;28
+msgid "dm"
+msgstr ""
+
+#: length_units.module:28
+msgid "Decimeter"
+msgstr "дециметр"
+
+#: length_units.module:29;29
+msgid "m"
+msgstr ""
+
+#: length_units.module:29
+msgid "Meter"
+msgstr "метр"
+
+#: length_units.module:30;30
+msgid "km"
+msgstr "км"
+
+#: length_units.module:30
+msgid "Kilometer"
+msgstr "километр"
+
+#: volume_units.module:16
+#: volume_units.info:0
+msgid "Volume units"
+msgstr "Единицы измерения объёма"
+
+#: volume_units.module:26;26
+msgid "ml"
+msgstr ""
+
+#: volume_units.module:26
+msgid "Milliliter"
+msgstr "миллиметр"
+
+#: volume_units.module:27
+msgid "liter"
+msgstr "литр"
+
+#: volume_units.module:27
+msgid "Liter"
+msgstr "литр"
+
+#: volume_units.module:27
+msgid "l"
+msgstr "л"
+
+#: volume_units.module:28
+msgid "kub.cm"
+msgstr ""
+
+#: volume_units.module:28
+msgid "Cubic centimeter"
+msgstr "кубический сантиметр"
+
+#: volume_units.module:28
+msgid "cc"
+msgstr ""
+
+#: volume_units.module:29
+msgid "kub.dm."
+msgstr "куб.дм."
+
+#: volume_units.module:29
+msgid "cdm"
+msgstr ""
+
+#: volume_units.module:30
+msgid "kub.m."
+msgstr ""
+
+#: volume_units.module:30
+msgid "Cubic meter"
+msgstr "кубический метр"
+
+#: volume_units.module:30
+msgid "cbm"
+msgstr ""
+
+#: dna_concentration_units.info:0
+msgid "Implementation of Units API for DNA concentration measurement units."
+msgstr "Реализация Unuts API для единиц измерения концентрации ДНК"
+
+#: dna_concentration_units.info:0
+#: dna_units.info:0
+#: length_units.info:0
+#: volume_units.info:0
+msgid "Units"
+msgstr ""
+
+#: dna_units.info:0
+msgid "Implementation of Units API for DNA measurement units."
+msgstr "Реализация Unuts API для единиц измерения ДНК"
+
+#: length_units.info:0
+msgid "Implementation of Units API for length measurement units."
+msgstr "Реализация Unuts API для единиц измерения длины"
+
+#: volume_units.info:0
+msgid "Implementation of Units API for volume measurement units."
+msgstr "Реализация Unuts API для единиц измерения объёма"
+
