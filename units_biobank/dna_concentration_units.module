@@ -1,0 +1,29 @@
+<?php 
+
+/**
+ * @file
+ * Implementation of Units module API for volume units.
+ */
+
+/**
+ * Implementation of hook_define_units()
+ * 
+ */
+
+function generate_dna_concentration_unit($short_name, $full_name, $symbol) {
+  return array(
+    'category_id' => 'dna_concentration',
+    'category' => t('DNA concentration units'),
+    'shortname' => $short_name,
+    'fullname' => $full_name,
+    'symbol' => $symbol,
+    'decimals' => 2,
+  );  
+}
+
+function dna_concentration_units_define_units() {
+  return array(
+    'dna_concentration_mkg_ml' => generate_dna_concentration_unit('mkg/ml', 'Mikrogramm per Milliliter', 'mkg/ml'),
+    'dna_concentration_mg_ml' => generate_dna_concentration_unit('mg/ml', 'Milligramm per Milliliter', 'mg/ml'),
+  );
+}

@@ -1,0 +1,30 @@
+<?php 
+
+/**
+ * @file
+ * Implementation of Units module API for DNA units.
+ */
+
+/**
+ * Implementation of hook_define_units()
+ * 
+ */
+
+function generate_dna_unit($short_name, $full_name, $symbol) {
+  return array(
+    'category_id' => 'dna',
+    'category' => t('DNA units'),
+    'shortname' => $short_name,
+    'fullname' => $full_name,
+    'symbol' => $symbol,
+    'decimals' => 2,
+  );  
+}
+
+function dna_units_define_units() {
+  return array(
+    'dna_pg' => generate_dna_unit('pg', 'Pikogramm', 'pg'),
+    'dna_d' => generate_dna_unit('d', 'Da - 1.67*10^-24 g', 'd'),
+    'dna_np' => generate_dna_unit('np', 'Nucleotide pair - 1*10^3 D', 'np'),
+  );
+}

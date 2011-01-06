@@ -1,0 +1,32 @@
+<?php 
+
+/**
+ * @file
+ * Implementation of Units module API for volume units.
+ */
+
+/**
+ * Implementation of hook_define_units()
+ * 
+ */
+
+function generate_volume_unit($short_name, $full_name, $symbol) {
+  return array(
+    'category_id' => 'volume',
+    'category' => t('Volume units'),
+    'shortname' => $short_name,
+    'fullname' => $full_name,
+    'symbol' => $symbol,
+    'decimals' => 2,
+  );  
+}
+
+function volume_units_define_units() {
+  return array(
+    'volume_ml' => generate_volume_unit('ml', 'Milliliter', 'ml'),
+    'volume_l' => generate_volume_unit('liter', 'Liter', 'l'),
+    'volume_cm3' => generate_volume_unit('cm3', 'Cubic centimeter', 'ccm'),
+    'volume_dm3' => generate_volume_unit('dm3', 'Cubic decimeter', 'cdm'),
+    'volume_m3' => generate_volume_unit('m3', 'Cubic meter', 'm3'),
+  );
+}
