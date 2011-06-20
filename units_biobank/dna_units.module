@@ -26,5 +26,6 @@ function dna_units_define_units() {
     'dna_pg' => generate_dna_unit(t('pg'), t('Pikogramm'), t('pg')),
     'dna_d' => generate_dna_unit(t('d'), t('Da (1.67*10^-24 g)'), t('d')),
     'dna_np' => generate_dna_unit(t('np'), t('Nucleotide pair (10^3 D)'), t('np')),
+    'dna_mkl' => generate_dna_unit(t('mkl'), t('Microliter'), t('mkl')),
   );
 }
